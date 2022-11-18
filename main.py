@@ -16,7 +16,7 @@ def jogo_da_forca():
     letras_utilizadas = set()  # Letras que o usuário advinhou
 
     # Pegando a entrada do usuário
-    letra_do_usuario = input("Chute uma letra: ").upper()
+    letra_do_usuario = input("Palpite a letra desejada: ").upper()
     if letra_do_usuario in alfabeto - letras_utilizadas:
         letras_utilizadas.add(letra_do_usuario)
         if letra_do_usuario in letras_palavra:
